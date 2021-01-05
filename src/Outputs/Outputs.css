@@ -1,0 +1,17 @@
+.outputs-grid {
+  /* display: grid;
+    grid: 1fr / repeat(2, minmax(max-content, max-content)); */
+  font-family: "Roboto";
+  flex: 1;
+  border: 1px black;
+}
+
+
+.outputs-row {
+    margin-top: 10px;
+    /* flex: 1; */
+}
+
+.outputs-row:last-child {
+    margin-bottom: 20px;
+}
